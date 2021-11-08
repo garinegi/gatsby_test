@@ -1,0 +1,344 @@
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family:/* 'RocknRoll One',*/'Yu Gothic', sans-serif;
+  font-size:1.6rem;/* 16px*/
+	background: #ffef01;
+}
+
+ul {
+  list-style: none;
+}
+
+a:hover{
+ opacity: 0.6;
+ transition: .8s;
+}
+
+/*header*/
+.header{
+ min-height: 816px;
+ background-image: url(../images/fp_back_01.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.header img{
+ width: 100%;
+}
+
+.headerLogo{
+ width:min(75%, 750px);
+ margin:auto;
+ padding:390px 0 0 0;
+}
+
+.headerLine{
+ width:min(80%, 750px);
+ margin:auto;
+ padding:80px 0 0 0;
+}
+
+/*mainSection*/
+
+.mainSection.-bg{
+  height: 546px;
+  background-image: url(../images/fp_back_02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ 
+ .mainSection.-bg2{
+  height: 1066px;
+  background-image: url(../images/fp_back_03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ 
+ .mainContents{
+  margin: auto;
+  width:min(85%, 750px);
+ }
+ 
+ .mainContents.-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ 
+ .mainContents__tittle{
+  margin-top: 50px;
+ }
+ 
+ .mainComtents__subTittle{
+  font-size: clamp(2rem,2.8vw,2.8rem);
+  color:#008ca0;
+  font-weight: bold;
+  margin: 20px 0 50px 0;
+ }
+ 
+ .mainComtents__text{
+  font-size: clamp(1.8rem,3.24vw,2.2rem);
+  font-weight: 700;
+ }
+
+ .mainItemContainer{
+  margin: auto;
+  width:min(100%, 1200px);
+  padding: 50px 0;
+ }
+ 
+ .mainItemContainer.-col2{
+  display: flex;
+  justify-content: space-around;
+ }
+ 
+ .mainItemContainer__item{
+  width:min(45%, 490px);
+ }
+ 
+ .mainItemContainer__item img{
+  width:min(90%, 510px);
+  margin-left: 10%;
+ } 
+ 
+ .mainItemContents{
+  width: min(90%, 510px);
+  margin-left: 10%;
+ }
+
+ .mainItemContents__tittle{
+  font-size: clamp(2rem,2.8vw,2.8rem); 
+  font-weight: bold;
+  margin-bottom: 20px;
+ }
+ 
+ .mainItemContents__tittle.-greenFt{
+  color:#00AF82;
+ }
+ 
+ .mainItemContents__tittle.-blueFt{
+  color:#558CB4;
+ }
+ 
+ .mainItemContents__text{
+  font-size: clamp(1.7rem,2.7vw,2rem); 
+  font-weight: bold;
+ }
+
+/*instagram*/
+.instaArea{
+  padding: 50px 0 200px 0;
+ }
+ .instaArea__tittle{
+  text-align: center;
+  max-width: 358px;
+  margin: 0 auto 30px;
+ }
+ 
+ .instaArea__photos{
+  display: flex;
+  background: black;
+ }
+ 
+ .instaArea__list{
+  flex: 0 1 calc( 100% / 6);
+ }
+ .instaArea__list img{
+  width: 100%;
+  vertical-align: bottom;
+ }
+ /**********instaボタン設定******************/
+ .buttonH{
+ position: relative;transition: 0.5s;max-width: 500px;margin:60px auto 0;}
+ .instagramLink.buttonH:after 	{background: white;}
+ .instagramLink figure{max-width: 293px;margin: auto;}
+ /*-- instagramLinkの設定 --*/
+ .instagramLink .button {color: #008ca0;background-color: #008ca0;}
+ .instagramLink .arrow:before,.instagramLink .arrow:after {background-color: white;}
+ /*-- 共通のボタン設定 --*/
+ div.button {width: 95%;max-width: 500px;margin: 0 auto;position: relative;border: 1px solid;border-radius: 50px;}
+ div.button a {width: 100%;padding: 1.5rem 0;cursor: pointer;display: inline-block;}
+ div.button a img {vertical-align: middle;}
+ div.button a span {position:relative;line-height:1em;padding-left:1em;}
+ div.button a span:before {position:absolute;left:0;content:"";display:inline-block;width:1em;height:1em;}
+ .arrow:before, .arrow:after {content:"";display:block;-webkit-transform:skewX(45deg);transform:skewX(45deg);position:absolute;right:36px;bottom:28px;}
+ .arrow:before {width:30px;height:2px;z-index: 1;}
+ .arrow:after {width:3px;height:8px;}
+ .taC {text-align: center;}
+ /**********instaボタン設定end******************/
+ 
+ /*contact*/
+ .contactArea.-bg{
+  height: 716px;
+  background-image: url(../images/fp_back_04.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ 
+ .mainContents__tittle.-mt-50{
+  margin-top: -50px;
+ }
+ 
+ .companyArea{
+ text-align: center;
+ padding: 80px 0 100px 0;
+ }
+ 
+ .companyArea__Name{
+  font-size: clamp(2rem,2.8vw,2.8rem);
+  font-weight: bold;
+  margin-bottom: 20px;
+ }
+ 
+ .companyArea__address{
+  font-size: clamp(1.5rem,2vw,2rem);
+  font-weight: 500;
+ }
+ 
+ .contactIconArea{
+  text-align: center;
+ }
+ 
+ .contactIconArea__icon{
+  width:min(85%, 255px);
+  margin: auto;
+ }
+ 
+ .contactIconArea__icon img{
+  display: inline-block;
+  margin-left: 10%;
+ }
+ 
+
+
+.footer{
+  padding: 200px 0 0 0;
+ }
+
+ .footer_inner{
+  border-top: solid 1px #008ca0;
+  width:60%;
+  margin: auto;
+  padding: 100px 0;
+  text-align: center;
+ }
+
+ .footer__copyRight{
+  font-size: clamp(1.2rem,2vw,2rem);
+  color:#008ca0;
+  font-weight: bold;
+ }
+
+/*740px以下適用*/
+@media screen and (max-width:740px){
+　
+  img{
+  width: 100%;
+  }
+  
+   /*header*/
+  .header{
+   width: 100%;
+   min-height: 450px;
+   background-image: url(../images/fp_spback_01.jpg);
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+  
+  .headerLogo{
+   padding:60% 0 0 0;
+  }
+  
+  /*main*/
+  .mainContents__tittle{
+   margin-top: 30%;
+   text-align: center;
+  }
+  
+  .mainContents__tittle img{
+   width: 85%;
+  }
+  
+  .mainSection.-bg2{
+   width: 100%;
+   height: 100%;
+   min-height: 1450px;
+   background-image: url(../images/fp_spback_03.jpg);
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+  
+  .mainItemContainer.-col2{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+  }
+  
+  .mainItemContainer__item{
+   width:85%;
+  }
+  
+  .mainItemContainer__item.-spMt{
+   margin-top: 15%;
+  }
+  
+  /*insta*/
+  .instaArea__photos{
+   display: flex;
+   flex-wrap: wrap;
+  }
+  
+  .instaArea__list{
+   flex: 0 1 calc( 100% / 2);
+  }
+  
+  .instaArea__tittle img{
+   width: 75%;
+  }
+  
+  .instagramLink img  	{max-width: 147px;}
+  
+  .arrow:before, .arrow:after {content:"";display:block;-webkit-transform:skewX(45deg);transform:skewX(45deg);position:absolute;right:36px;bottom:26px;}
+  
+  /*contact*/
+  .contactArea.-bg{
+   height: 100%;
+   background-image: none;
+  }
+  
+  .companyArea{
+  padding: 10% 0 20% 0;
+  }
+  
+  .contactIconArea__icon img{
+   width: 75%;
+   margin-left: 8%;
+  }
+  
+  /*footer*/
+  .footer{
+   padding: 25% 0 0 0;
+  }
+  
+  .footer_inner{
+   border-top: solid 1px #008ca0;
+   width:85%;
+   margin: auto;
+   padding: 10% 0;
+   text-align: center;
+  }
+  
+  
+  }/*740px以下適用ここまで*/
+
+
